@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki Swift</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="stilusok.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="display-1 mb-0 hatter">
+            <img src="kepek/suzuki.png" alt="Suzuki">Suzuki Swift</p>
+        <nav class="nav nav-tabs bg-light flex-column flex-md-row">
+            <a href="index.html" class="nav-link">Megjelenés</a>
+            <a href="kenyelem.html" class="nav-link">Kényelem</a>
+            <a href="galeria.html" class="nav-link">Galéria</a>
+            <a href="tesztvezetes.html" class="nav-link active">Tesztvezetés</a>
+            <a href="arlista.html" class="nav-link">Árlista</a>
+        </nav>
+        <h2 class="my-3">Jelentkezz tesztvezetésre!</h2>
+        <p>Most Te is kipróbálhatod a vezetési élményt. Csak töltsd ki az adatokat, és kattints a gombra!</p>
+        <h2 class="my-3">Adatok</h2>
+        <form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="nev" class="form-label">Név: </label>
+                    <input type="text" id="nev" name="nev" class="form-control" required>
+                    <label for="telefon" class="form-label">Telefon: </label>
+                    <input type="tel" id="telefon" name="telefon" class="form-control" required>
+                    <label for="mail" class="form-label">E-mail: </label>
+                    <input type="email" id="mail" name="mail" class="form-control" required>
+                    <div class="form-check mt-3">
+                        <input type="checkbox" class="form-check-input" name="jogositvany" id="jogositvany">
+                        <label for="jogositvany" class="form-check-label">Van jogosítványom.</label>
+                    </div>
+                    <input type="submit" class="button btn-primary btn-lg mt-3" value="Jelentkezem">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
